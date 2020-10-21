@@ -1,8 +1,8 @@
 This is a quick reference for adding multiple Pytorch Extentions.
 
 Here are 2 extensions -
-1. cpp_sigmoid.cpp - wrapper for pytorch sigmoid
-2. cpp_matmul.cpp - wrapper for pytorch matmul
+1. `cpp_sigmoid.cpp` - wrapper for pytorch sigmoid
+2. `cpp_matmul.cpp` - wrapper for pytorch matmul
 
 The binding is registered in `bindings.cpp` 
 
