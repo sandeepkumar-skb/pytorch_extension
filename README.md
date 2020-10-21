@@ -12,4 +12,17 @@ which has `plugins` module which can be imported from python and can be used for
 To build and generate the extensions, run the following
 `python setup.py install`
 
+Here is a simple python test to test the extensions:
+```
+# test_extensions.py
+import torch
+import plugins
+
+x = torch.rand((3,4))
+y = torch.rand((4,3))
+
+z = plugins.matmul(x, y)
+z = plugins.sigmoid(z)
+print(z)
+```
 
